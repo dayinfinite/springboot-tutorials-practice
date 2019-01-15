@@ -1,5 +1,11 @@
 package hello;
 
+
+/**
+ * @author dayinfinite
+ * @deprecated bean定义
+ * @date 2019/01/14
+ * */
 public class Greeting {
     private final long id;
     private final String content;

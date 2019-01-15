@@ -6,6 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicLong;
 
+
+/**
+ * @author dayinfinite
+ * @deprecated 访问设置
+ * @date 2019/01/14
+ * */
 @RestController
 public class GreetingController {
     private static final String template = "Hello, %s";
